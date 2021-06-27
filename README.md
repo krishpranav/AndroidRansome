@@ -20,7 +20,6 @@ python3 androidransome.py
 
 
 ```
-
 git clone https://github.com/R1punk/SARA && cd SARA
 tsu
 bash installtermux.sh
