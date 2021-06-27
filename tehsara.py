@@ -15,3 +15,10 @@ R = "\033[1;41m"
 Y = "\033[1;43m"
 B = "\033[1;44m"
 w = "\033[0m"
+
+
+app_icon = ""
+app_name = ""
+alert_title = ""
+alert_desc = ""
+key_pass = ""
