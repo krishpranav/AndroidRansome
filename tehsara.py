@@ -22,3 +22,7 @@ app_name = ""
 alert_title = ""
 alert_desc = ""
 key_pass = ""
+
+def banner():
+        print(w+b+" ANDROID RANSOME "+w)
+
