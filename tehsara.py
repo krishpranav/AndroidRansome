@@ -26,3 +26,15 @@ key_pass = ""
 def banner():
         print(w+b+" ANDROID RANSOME "+w)
 
+
+def writefile(file, old, new):
+    while True:
+        if os.path.isfile(file):
+            replaces = {old:new}
+            for line in fileinput.input(file, inplace=True):
+                for search in replaces:
+                    replaced = replaces[search]
+                    line = line.replace(search, replaced)
+                print(line, end="")
+            break
+        else: exit(r+"[!]"+w+" Failed to write in file "+file)
